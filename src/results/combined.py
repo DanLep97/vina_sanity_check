@@ -5,7 +5,7 @@ import os
 import subprocess
 
 if __name__ == "__main__":
-    benchmark_path = "/home/daniil/Downloads/posebusters_benchmark_set"
+    benchmark_path = "../../Vina/inputs"
 
     def get_vina_bust_inputs(output_path):
         outputs = glob.glob(output_path)

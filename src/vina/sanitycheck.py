@@ -72,10 +72,10 @@ def xyz_from_pdb(pdb_p):
     ])
     return xyz
 
-benchmark_path = "/home/daniil/Downloads/posebusters_benchmark_set"
+benchmark_path = "/home/daniil/Downloads/vina_sanitycheck/databases/Vina/inputs"
 benchmark_paths = glob.glob(f"{benchmark_path}/*")
 adfr = "/home/daniil/Desktop/Ph.D/ADFR/bin"
-outputs_path = "/home/daniil/Downloads/ml_docking_review/databases/Vina/outputs"
+outputs_path = "/home/daniil/Downloads/vina_sanitycheck/databases/Vina/outputs"
 box_size = [25.0,25.0,25.0]
 curr_dir = os.getcwd()
 

@@ -17,18 +17,19 @@ The RMSD was computed using PoseBuster's RMSD module based on RDKit's [CalcRMS](
     - `conda install -c bioconda usalign`
 5. Install obabel:
     - `conda install conda-forge::openbabel`
+6. Install [ADFR](https://ccsb.scripps.edu/adfr/) and update its path in the `src/vina/sanitycheck.py` file.
 
 ## Quick replication
-
+The repository contains the processed outputs and analysis plots but can be used to replicate the results from scratch.
 
 ### Database
-The database include complexes computed by different docking tools as well as a minimalist version of Q-BioLiP pre-processed dataset.
+The database is ready to use with the 428 protein-ligand complexes already available in `databases/Vina/inputs`. They were downloaded from PoseBuster's zenodo [repository](https://zenodo.org/records/8278563).
 
-#### 1. Download
-Download the [zip file](https://tubcloud.tu-berlin.de/s/3PKK6o56oHFijEP) and extract the content into database folder.
+### Docking
+Run `src/vina/sanitycheck.py` for re-docking.
 
-#### 2. Compute metrics
+### Compute metrics
 Run `src/results/combine.py`
 
-#### 4. Explore metrics
+### Explore metrics
 Follow jupyter notebook in `src/results/viz.ipynb`
