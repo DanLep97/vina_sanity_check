@@ -1,0 +1,33 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  N_12 
+REMARK    2  A    between atoms: C_10  and  N_19 
+ROOT
+HETATM    1  C   UNL     1      53.788  64.656 286.498  1.00  0.00     0.185 A 
+HETATM    2  C   UNL     1      53.169  63.878 288.379  1.00  0.00     0.117 A 
+HETATM    3  C   UNL     1      52.541  63.121 287.416  1.00  0.00     0.154 A 
+HETATM    4  C   UNL     1      51.472  61.861 289.028  1.00  0.00     0.678 A 
+HETATM    5  C   UNL     1      52.924  63.593 289.727  1.00  0.00     0.147 A 
+HETATM    6  N   UNL     1      52.949  63.618 286.208  1.00  0.00    -0.322 N 
+HETATM    7  N   UNL     1      53.953  64.845 287.779  1.00  0.00    -0.347 N 
+ATOM      8  HN  UNL     1      54.532  65.550 288.236  1.00  0.00     0.167 HD
+HETATM    9  N   UNL     1      51.672  62.098 287.695  1.00  0.00    -0.174 N 
+ATOM     10  HN  UNL     1      51.210  61.555 286.965  1.00  0.00     0.186 HD
+HETATM   11  N   UNL     1      52.057  62.566 289.990  1.00  0.00    -0.179 N 
+ATOM     12  HN  UNL     1      51.853  62.333 290.962  1.00  0.00     0.185 HD
+HETATM   13  S   UNL     1      53.622  64.415 291.000  1.00  0.00    -0.057 SA
+ENDROOT
+BRANCH   6  14
+HETATM   14  C   UNL     1      52.606  63.133 284.852  1.00  0.00     0.092 C 
+HETATM   15  C   UNL     1      53.064  61.699 284.622  1.00  0.00     0.026 C 
+HETATM   16  C   UNL     1      52.940  61.318 283.151  1.00  0.00     0.002 C 
+HETATM   17  C   UNL     1      51.782  62.031 282.470  1.00  0.00     0.000 C 
+HETATM   18  C   UNL     1      50.675  62.364 283.449  1.00  0.00     0.002 C 
+HETATM   19  C   UNL     1      51.140  63.347 284.515  1.00  0.00     0.026 C 
+ENDBRANCH   6  14
+BRANCH   4  20
+HETATM   20  N   UNL     1      50.647  60.866 289.352  1.00  0.00    -0.234 N 
+ATOM     21  HN2 UNL     1      50.198  60.325 288.613  1.00  0.00     0.174 HD
+ATOM     22  HN1 UNL     1      50.498  60.689 290.345  1.00  0.00     0.174 HD
+ENDBRANCH   4  20
+TORSDOF 2
